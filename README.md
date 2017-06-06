@@ -4,4 +4,4 @@
 直接导入WPhoto可以实现该功能。
 使用UIcollectionView和基本的框架进行了基本的封装。
 
-![image](https://github.com/joinxinxu/WPhoto/photoDemo/photos.png)
+![image](https://github.com/joinxinxu/WPhoto/tree/master/photoDemo/photos.png)
