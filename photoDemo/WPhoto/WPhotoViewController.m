@@ -271,7 +271,6 @@
                     cell.chooseStatus = NO;
                 }
             }
-
         } asset:asset viewSize:self.view.bounds.size];
         
     } else {
@@ -312,6 +311,7 @@
         finishBut.backgroundColor = UIColorFromRGB(0xf9f9f9);
         finishBut.layer.borderWidth = 0.5;
         finishBut.layer.borderColor = UIColorFromRGB(0xe8e8e8).CGColor;
+        [finishBut addTarget:self action:@selector(finishChoosePhotos:) forControlEvents:UIControlEventTouchUpInside];
         _finishBtn = finishBut;
         [self finishColorAndTextChange:_choosePhotoArr.count];
     }
