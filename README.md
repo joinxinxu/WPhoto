@@ -3,3 +3,5 @@
 可以自行设置选择相片的张数，可以单选和多选。
 直接导入WPhoto可以实现该功能。
 使用UIcollectionView和基本的框架进行了基本的封装。
+
+![image](https://github.com/joinxinxu/WPhoto/photoDemo/photos.png)
